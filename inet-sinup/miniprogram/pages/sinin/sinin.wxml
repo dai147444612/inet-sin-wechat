@@ -1,0 +1,10 @@
+<view class="content">
+  <view class="section__title">正在签到的人</view>
+    <view class="picker" wx:for="{{MultiArray}}" wx:key="userId">
+      <text>
+        姓名: {{item.name}} \n
+        开始时间 <text class="time">{{ item.startTime }}</text>
+      </text>
+      <view class="line"></view>
+  </view>
+</view>

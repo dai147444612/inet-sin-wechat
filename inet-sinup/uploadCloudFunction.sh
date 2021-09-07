@@ -1,0 +1,1 @@
+"/Applications/wechatwebdevtools.app/Contents/MacOS/cli" cloud functions deploy --e cloud1-9gw2ftnof5ad78c2 --n quickstartFunctions --r --project "/Users/drh/WeChatProjects/inet-sinup" --report

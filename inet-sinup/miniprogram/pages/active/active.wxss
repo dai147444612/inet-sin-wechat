@@ -1,0 +1,29 @@
+.body {
+  width: 80vw;
+  margin: 10px auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.h1 {
+  text-align: left;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.station {
+  text-indent: 2em;
+  line-height: 50rpx;
+  border-bottom: 1px solid #99FFFF;
+  padding-bottom: 15px;
+}
+
+.active {
+  margin-bottom: 10px;
+  line-height: 25px;
+}

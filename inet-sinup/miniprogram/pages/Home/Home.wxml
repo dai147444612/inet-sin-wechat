@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="page-body">
+    <view class="page-section page-section-gap">
+      <view class="page-section-title"></view>
+    </view>
+  </view>
+  <view class="content">
+    <view style="margin:150rpx" class="content-in">
+      <view class="time">{{Time}}</view>
+    </view>
+  </view>
+  <view class="all">
+      <view class="btn">
+          <button class="mini-btn" type="primary" size="mini" bindtap="sinup">签到</button>
+          <button class="mini-btn" type="warn" size="mini" bindtap="sinout">签退</button>
+      </view>
+  </view>
+</view>

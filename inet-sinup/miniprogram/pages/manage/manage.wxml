@@ -1,0 +1,5 @@
+<view wx:for="{{arry}}" wx:key="id">
+    {{item.name}}
+    <button size="mini" type="primary" bindtap="agree">同意</button>
+    <button size="mini" type="warn">拒绝</button>
+</view>

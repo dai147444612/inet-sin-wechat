@@ -1,0 +1,45 @@
+<view class="container">
+  <view class="login-icon">
+    <image class="login-img"
+      src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=660373771,3596958404&fm=26&gp=0.jpg"></image>
+  </view>
+  <view class="login-from">
+    <!--账号-->
+    <view class="inputView">
+      <label class="loginLab">账号</label>
+      <input class="inputText" placeholder="请输入账号" bindinput="accountInput"/>
+    </view>
+    <view class="line"></view>
+    <!--密码-->
+    <view class="inputView">
+      <label class="loginLab">密码</label>
+      <input class="inputText" password="true" placeholder="请输入密码" bindinput="passwordInput" />
+    </view>
+    <view class="inputView">
+      <label class="loginLab">姓名</label>
+      <input class="inputText" placeholder="请输入姓名" bindinput="userNameInput"/>
+    </view>
+    <view class="inputView">
+      <label class="loginLab">班级</label>
+      <input class="inputText" placeholder="请输入班级" bindinput="academyInput"/>
+    </view>
+    <view class="inputView">
+      <label class="loginLab">联系方式</label>
+      <input class="inputText" placeholder="请输入联系方式" bindinput="phoneInput"/>
+    </view>
+    <view class="inputView">
+      <label class="loginLab">邮箱</label>
+      <input class="inputText" placeholder="请输入邮箱" bindinput="emailInput"/>
+    </view>
+    <!--按钮-->
+    <!--注册-->
+    <view class="registerBtnView">
+      <button class="registerBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="register">注册</button>
+    </view>
+
+  </view>
+</view>
+<view class='success' wx:if="{{success}}">
+  <web-view src="{{text}}"></web-view>
+</view>

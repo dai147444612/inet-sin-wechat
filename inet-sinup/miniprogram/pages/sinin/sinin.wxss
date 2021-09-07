@@ -1,0 +1,19 @@
+.content .section__title {
+  font-size: 35rpx;
+  margin: 30rpx auto 30rpx 250rpx;
+}
+
+.picker {
+  margin: 5rpx 30rpx 15rpx 30rpx;
+}
+
+.line {
+  width: 100%;
+  background-color: grey;
+  height: 2rpx;
+  margin-top: 15rpx;
+}
+
+.time {
+  font-size: 35rpx;
+}

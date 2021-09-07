@@ -1,0 +1,36 @@
+<view class="user_info_wrap">
+  <view wx:if="{{account}}" class="user_img_wrap" wx:key="id">
+    <image class="user_bg"
+      src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=660373771,3596958404&fm=26&gp=0.jpg"></image>
+    <view class="user_info">
+      <image mode="widthFix" class="user_icon" src="{{avatarUrl}}"></image>
+      <view class="user_name">{{nickName}}</view>
+    </view>
+  </view>
+  <view wx:else class="user_btn">
+    <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile">登录</button>
+  </view>
+</view>
+
+<view class="content">
+  <view class="hr"></view>
+  <view class="line"></view>
+  <navigator url='../active/active'>
+    <view class='item'>
+      <view class="title" class="iconfont icon-canyuhuodong">使用规范</view>
+      <view class="detail2">
+        <navigator url='../active/active'>></navigator>
+      </view>
+    </view>
+  </navigator>
+  <view class="line"></view>
+  <navigator bindtap="exit">
+    <view class='item'>
+      <view class="title" class="iconfont icon-liuyan">退出登录</view>
+      <view class="detail2">
+        <navigator bindtap="exit">></navigator>
+      </view>
+    </view>
+  </navigator>
+
+</view>

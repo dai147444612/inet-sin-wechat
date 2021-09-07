@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Home/Home",
+    "pages/sinin/sinin",
+    "pages/manage/manage",
+    "pages/register/register",
+    "pages/login/login",
+    "pages/active/active"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1677FF",
+    "navigationBarTitleText": "inet",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true 
+  },
+  "tabBar": {
+    "selectedColor": "#1677FF",
+    "list": [{
+      "pagePath": "pages/Home/Home",
+      "text": "首页",
+      "iconPath": "images/平台 (1).png",
+      "selectedIconPath": "images/平台.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "登陆",
+      "iconPath": "images/用户 (1).png",
+      "selectedIconPath": "images/用户.png"
+    },{
+      "pagePath": "pages/sinin/sinin",
+      "text": "正在签到",
+      "iconPath": "images/时间周期 (1).png",
+      "selectedIconPath": "images/时间周期.png"
+    },
+    {
+      "pagePath": "pages/manage/manage",
+      "text": "管理员",
+      "iconPath": "images/开放 (1).png",
+      "selectedIconPath": "images/开放.png"
+    }
+  ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

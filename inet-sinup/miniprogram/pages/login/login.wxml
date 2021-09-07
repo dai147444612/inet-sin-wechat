@@ -1,0 +1,33 @@
+<view class="container">
+  <view class="login-icon">
+    <image class="login-img"
+      src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=660373771,3596958404&fm=26&gp=0.jpg"></image>
+  </view>
+  <view class="page-body">
+    <form catchreset="formReset" bindsubmit="formSubmit">
+
+      <view class="inputView">
+        <image class="nameImage"
+          src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1660385496,4034552957&fm=26&gp=0.jpg"></image>
+        <label class="loginLab">账号</label>
+        <input class="inputText" placeholder="请输入账号" value="{{user}}" name="user" />
+      </view>
+      <view class="line"></view>
+      <!--密码-->
+      <view class="inputView">
+        <image class="keyImage"
+          src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2431629547,2432017491&fm=26&gp=0.jpg"></image>
+        <label class="loginLab">密码</label>
+        <input class="inputText" password="true" placeholder="请输入密码" value="{{pass}}" name="pass" />
+      </view>
+      <view class="loginBtnView">
+        <button class="loginBtn" type="primary" form-type="submit" bindtap="showUserInfoTap">登录</button>
+      </view>
+      <!--注册-->
+      <view class="registerBtnView">
+        <button class="registerBtn" type="primary" bindtap="toReg">注册</button>
+      </view>
+    </form>
+  </view>
+
+</view>

@@ -1,0 +1,22 @@
+/* pages/Home/Home.wxss */
+.mini-btn{
+  width: 200rpx;
+  height: 80rpx;
+  margin-right: 10rpx;
+}
+
+.all {
+  /* width: 100%; */
+  height: 200rpx;
+  margin: 0 auto;
+}
+
+.time {
+  font-size: 40rpx;
+
+}
+
+.btn {
+  width: 250rpx;
+}
+
